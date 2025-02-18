@@ -14,7 +14,7 @@ func (o *Operations) Get(key string) (string, error) {
 	return o.store.Get(key)
 }
 
-func (o *Operations) set(key, value string) error {
+func (o *Operations) Set(key, value string) error {
 	return o.store.Set(key, value)
 }
 
